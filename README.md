@@ -13,7 +13,7 @@ You should create one R script called run_analysis.R that does the following.
 ## Steps to follow for this project
 
 1. Download the data source and put into a folder on your local drive. You'll have a ```UCI HAR Dataset``` folder.
-2. Put ```run_analysis.R``` in the parent folder of ```UCI HAR Dataset```.
+2. Put ```run_analysis.R``` in a working folder.  The working folder is within the same directory as ```UCI HAR Dataset```.  
 3. Run ```source("run_analysis.R")```, then it will generate a new file ```comb_mean_std_tidy.txt``` in your working directory.
 
 ## Libraries
