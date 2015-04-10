@@ -16,6 +16,7 @@ library("reshape2", lib.loc="~/R/win-library/3.1")
 ########################################################################
 
 # 1. Load in descriptive activity names and variable labels (features)
+	## NOTE location of UCI HAR Dataset directory ##
 activity_labels <- read.table("../UCI HAR Dataset/activity_labels.txt")
 features <- read.table("../UCI HAR Dataset/features.txt")
 
